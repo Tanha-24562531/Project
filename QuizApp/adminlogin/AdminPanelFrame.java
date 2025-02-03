@@ -13,7 +13,7 @@ import java.awt.*;
 public class AdminPanelFrame extends JFrame {
 
     private static final int FRAME_WIDTH = 500;
-    private static final int FRAME_HEIGHT = 700;  // Adjusted height to accommodate buttons
+    private static final int FRAME_HEIGHT = 700;  
     private static final Dimension BUTTON_SIZE = new Dimension(200, 30);
 
     public AdminPanelFrame() {
