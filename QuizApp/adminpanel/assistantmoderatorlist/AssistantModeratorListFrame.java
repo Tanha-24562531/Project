@@ -57,7 +57,7 @@ public class AssistantModeratorListFrame extends JFrame {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] details = line.split(";");
-                if (details.length == 5) { // Including phone and password
+                if (details.length == 5) { 
                     AssistantModeratorPanel panel = new AssistantModeratorPanel(details[0], details[1], details[2], details[3], details[4]);
                     this.assistantModeratorListModel.addElement(panel);
                 }
@@ -68,7 +68,7 @@ public class AssistantModeratorListFrame extends JFrame {
     }
 
     private void saveAssistantModeratorsToFile() {
-        // Implement saving logic if needed
+    
     }
 
     public static void main(String[] args) {
